@@ -24,6 +24,7 @@
             }
         }
     },
+    "extract_dir": "TegraRcmGUI_v2.6_portable",
     "bin": "TegraRcmSmash.exe",
     "shortcuts": [
         [
