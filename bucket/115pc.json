@@ -14,8 +14,8 @@
             "hash": "a03ca8131ea989cfb71f706e6e5623f3942740ff45ffa8f67d3755b43683f614"
         }
     },
-    "bin": "Appplication/115.exe",
-    "extract_dir": "115",
+    "bin": "115.exe",
+    "extract_dir": "115\\Application",
     "shortcuts": [
         [
             "115.exe",
