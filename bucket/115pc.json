@@ -1,0 +1,24 @@
+{
+    "homepage": "https://115.com/",
+    "checkver": "115pc_(\\d+\\.\\d\\.\\d\\.\\d+)",
+    "version": "1.0.5.18",
+    "license": "freeware",
+    "description": "115电脑版。",
+    "architecture": {
+        "64bit": {
+            "url": "https://down.115.com/client/115pc/win/115pc_1.0.5.18.exe#/dl.7z",
+            "hash": "a03ca8131ea989cfb71f706e6e5623f3942740ff45ffa8f67d3755b43683f614"
+        },
+        "32bit": {
+            "url": "https://down.115.com/client/115pc/win/115pc_1.0.5.18.exe#/dl.7z",
+            "hash": "a03ca8131ea989cfb71f706e6e5623f3942740ff45ffa8f67d3755b43683f614"
+        }
+    },
+    "bin": "115.exe",
+    "shortcuts": [
+        [
+            "115.exe",
+            "115电脑版"
+        ]
+    ]
+}
