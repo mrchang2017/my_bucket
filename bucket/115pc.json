@@ -17,7 +17,7 @@
     "bin": "115.exe",
     "shortcuts": [
         [
-            "115.exe",
+            "115\\Application115.exe",
             "115电脑版"
         ]
     ]
