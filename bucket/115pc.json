@@ -15,7 +15,6 @@
         }
     },
     "bin": "115.exe",
-    "extract_dir": "115\\Application",
     "shortcuts": [
         [
             "115.exe",
