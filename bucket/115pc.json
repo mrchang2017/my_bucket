@@ -14,10 +14,10 @@
             "hash": "a03ca8131ea989cfb71f706e6e5623f3942740ff45ffa8f67d3755b43683f614"
         }
     },
-    "bin": "115.exe",
+    "bin": "115\\Application\\115.exe",
     "shortcuts": [
         [
-            "115\\Application115.exe",
+            "115\\Application\\115.exe",
             "115电脑版"
         ]
     ]
