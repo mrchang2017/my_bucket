@@ -1,9 +1,8 @@
 {
     "homepage": "https://github.com/eliboa/TegraRcmGUI",
-    "checkver": "TegraRcmGUI_v(\\d+\\.\\d+)",
+    "description": "C++ GUI for TegraRcmSmash by rajkosto (Fusée Gelée exploit for Nintendo Switch)",
     "version": "2.6",
     "license": "GPL-2.0",
-    "description": "C++ GUI for TegraRcmSmash by rajkosto (Fusée Gelée exploit for Nintendo Switch)",
     "architecture": {
         "64bit": {
             "url": "https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v2.6_portable.zip",
@@ -14,16 +13,6 @@
             "hash": "e9b0d68007649d4942d019ac8c394ebb3b0af95fcb54fb543a101e7614a4435c"
         }
     },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v2.6_portable.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v2.6_portable.zip"
-            }
-        }
-    },
     "extract_dir": "TegraRcmGUI_v2.6_portable",
     "bin": "TegraRcmGUI.exe",
     "shortcuts": [
@@ -31,5 +20,24 @@
             "TegraRcmGUI.exe",
             "TegraRcmGUI"
         ]
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/eliboa/TegraRcmGUI"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v$version_portable.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v$version_portable.zip",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
+    }
 }

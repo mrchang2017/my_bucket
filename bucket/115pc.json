@@ -25,7 +25,23 @@
         ]
     ],
     "checkver": {
-        "script":"return ($(iwr -useb 'https://appversion.115.com/1/web/1.0/api/getOneVerson?app_os=49' | ConvertFrom-Json).data.version_code)",
-        "re": "(\\d+\\.\\d\\.\\d\\.\\d+)"
+        "url": "https://appversion.115.com/1/web/1.0/api/getOneVerson?app_os=49",
+        "jp": "$.data.version_code"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://down.115.com/client/115pc/win/115pc_$version.exe#/dl.7z",
+                "hash": {
+                    "mode": "download"
+                }
+            },
+            "32bit": {
+                "url": "https://down.115.com/client/115pc/win/115pc_$version.exe#/dl.7z",
+                "hash": {
+                    "mode": "download"
+                }
+            }
+        }
     }
 }

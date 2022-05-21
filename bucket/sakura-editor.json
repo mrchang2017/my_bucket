@@ -1,9 +1,11 @@
 {
-    "homepage": "https://github.com/sakura-editor/sakura",
-    "checkver": "sakura-tag-v(\\d+\\.\\d+\\.\\d+)-",
     "version": "2.4.1",
-    "license": "Zlib",
     "description": "Japanese text editor for MS Windows",
+    "homepage": "https://github.com/sakura-editor/sakura",
+    "checkver": {
+        "github": "https://github.com/sakura-editor/sakura"
+    },
+    "license": "Zlib",
     "architecture": {
         "64bit": {
             "url": "https://github.com/sakura-editor/sakura/releases/download/v2.4.1/sakura-tag-v2.4.1-build2849-ee8234f-Win32-Release-Exe.zip",
