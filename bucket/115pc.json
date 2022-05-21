@@ -1,29 +1,25 @@
 {
-    "homepage": "https://115.com/",
-    "checkver": "115pc_(\\d+\\.\\d\\.\\d\\.\\d+)",
-    "version": "1.0.5.18",
-    "license": "freeware",
+    "version": "1.0.6.7",
     "description": "115电脑版。",
+    "homepage": "https://115.com/",
+    "license": "freeware",
     "architecture": {
         "64bit": {
-            "url": "https://down.115.com/client/115pc/win/115pc_1.0.5.18.exe#/dl.7z",
-            "hash": "a03ca8131ea989cfb71f706e6e5623f3942740ff45ffa8f67d3755b43683f614"
+            "url": "https://down.115.com/client/115pc/win/115pc_1.0.6.7.exe#/dl.7z",
+            "hash": "53d695645edf2bcdff32afdf36ae1b4b1b39056ec0576ea71879d4188ffc0997"
         },
         "32bit": {
-            "url": "https://down.115.com/client/115pc/win/115pc_1.0.5.18.exe#/dl.7z",
-            "hash": "a03ca8131ea989cfb71f706e6e5623f3942740ff45ffa8f67d3755b43683f614"
+            "url": "https://down.115.com/client/115pc/win/115pc_1.0.6.7.exe#/dl.7z",
+            "hash": "53d695645edf2bcdff32afdf36ae1b4b1b39056ec0576ea71879d4188ffc0997"
         }
     },
     "bin": "115\\Application\\115.exe",
-    "uninstaller": {
-        "script": [
-            "taskkill.exe /IM \"115Support.exe\" /F"
-        ]
-    },
+    "pre_uninstall":"taskkill.exe /IM \"115Support.exe\" /F",
     "shortcuts": [
         [
             "115\\Application\\115.exe",
             "115电脑版"
         ]
-    ]
+    ],
+    "checkver": "115pc_(\\d+\\.\\d\\.\\d\\.\\d+)"
 }
