@@ -24,5 +24,8 @@
             "115电脑版"
         ]
     ],
-    "checkver": "115pc_(\\d+\\.\\d\\.\\d\\.\\d+)"
+    "checkver": {
+        "script":"return ($(iwr -useb 'https://appversion.115.com/1/web/1.0/api/getOneVerson?app_os=49' | ConvertFrom-Json).data.version_code)",
+        "re": "(\\d+\\.\\d\\.\\d\\.\\d+)"
+    }
 }
