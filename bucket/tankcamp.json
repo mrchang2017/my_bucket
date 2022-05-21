@@ -1,9 +1,8 @@
 {
     "homepage": "http://camp.wot.360.cn/#/",
-    "checkver": "tankcampinstall_(\\d+\\.\\d\\.\\d)",
+    "description": "《坦克营地》是军武巨制《坦克世界》唯一官方APP,集合了游戏资讯、坦克百科、国服战绩、活动、直播等全方位内容。",
     "version": "2.0.1",
     "license": "freeware",
-    "description": "《坦克营地》是军武巨制《坦克世界》唯一官方APP,集合了游戏资讯、坦克百科、国服战绩、活动、直播等全方位内容。",
     "architecture": {
         "64bit": {
             "url": "https://cgdl.qihucdn.com/tankbox/tankcampinstall_2.0.1.1016.exe#/dl.7z",
