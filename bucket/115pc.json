@@ -14,7 +14,10 @@
         }
     },
     "bin": "115\\Application\\115.exe",
-    "pre_uninstall":"taskkill.exe /IM \"115Support.exe\" /F",
+    "pre_uninstall": "taskkill.exe /IM \"115Support.exe\" /F",
+    "uninstaller": {
+        "script": "taskkill.exe /IM \"115Support.exe\" /F"
+    },
     "shortcuts": [
         [
             "115\\Application\\115.exe",
