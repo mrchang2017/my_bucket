@@ -12,10 +12,10 @@
             "hash": "69f78e85e4878093cbbd7abf7757fb4a200d716d71b91bbf63dda6cc63606245"
         }
     },
-    "bin": "SAK_64bit/SAK.exe",
+    "bin": "SAK_64bit\\SAK.exe",
     "shortcuts": [
         [
-            "SAK.exe",
+            "SAK_64bit\\SAK.exe",
             "SAK"
         ]
     ]
