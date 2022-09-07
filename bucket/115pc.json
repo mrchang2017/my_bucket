@@ -1,16 +1,16 @@
 {
-    "version": "1.0.8.9",
+    "version": "2.0.0.19",
     "description": "115电脑版。",
     "homepage": "https://115.com/",
     "license": "freeware",
     "architecture": {
         "64bit": {
-            "url": "https://down.115.com/client/115pc/win/115pc_1.0.8.9.exe#/dl.7z",
-            "hash": "16154183331fcefcda4172e28d3a8b996edaed6cd223e5d19e2f4bf8eb409850"
+            "url": "https://down.115.com/client/115pc/win/115pc_2.0.0.19.exe#/dl.7z",
+            "hash": "54f8302397309a877caee8933e43a7051aa2a935b7d7e6ecb65fcc50c4807da9"
         },
         "32bit": {
-            "url": "https://down.115.com/client/115pc/win/115pc_1.0.8.9.exe#/dl.7z",
-            "hash": "16154183331fcefcda4172e28d3a8b996edaed6cd223e5d19e2f4bf8eb409850"
+            "url": "https://down.115.com/client/115pc/win/115pc_2.0.0.19.exe#/dl.7z",
+            "hash": "54f8302397309a877caee8933e43a7051aa2a935b7d7e6ecb65fcc50c4807da9"
         }
     },
     "bin": "115\\Application\\115.exe",
