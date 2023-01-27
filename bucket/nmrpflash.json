@@ -7,6 +7,10 @@
     },
     "license": "Zlib",
     "architecture": {
+        "64bit": {
+            "url": "https://github.com/jclehner/nmrpflash/releases/download/v0.9.19/nmrpflash-0.9.19-win32.zip",
+            "hash": "d0f9d2b3c7286d0aa0a07feadff09b27c5d73fb6041fd80ff52ff0bd75328b1d"
+        },
         "32bit": {
             "url": "https://github.com/jclehner/nmrpflash/releases/download/v0.9.19/nmrpflash-0.9.19-win32.zip",
             "hash": "d0f9d2b3c7286d0aa0a07feadff09b27c5d73fb6041fd80ff52ff0bd75328b1d"
