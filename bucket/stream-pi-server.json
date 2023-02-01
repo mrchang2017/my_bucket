@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0-SNAPSHOT",
+    "description": "Server Software for the Stream-Pi Platform",
+    "homepage": "https://github.com/stream-pi/server",
+    "checkver": {
+        "github": "https://github.com/stream-pi/server"
+    },
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stream-pi/server/releases/download/2.0.0-SNAPSHOT/stream-pi-server-windows-x64-2.0.0-SNAPSHOT-installer.msi",
+            "hash": "6193f130010e4a5889d8b34043cd8b5beb50add706b51953d9f285fe7077a9c6",
+            "extract_dir": "Stream-Pi\\Server"
+        },
+        "32bit": {
+            "url": "https://github.com/stream-pi/server/releases/download/2.0.0-SNAPSHOT/stream-pi-server-windows-x86-2.0.0-SNAPSHOT-installer.msi",
+            "hash": "e613bc40ed8e192ce9587cb150e1eb0b8e6d3ecee0d94cf350e6a4b23263e633",
+            "extract_dir": "Stream-Pi\\Server"
+        }
+    },
+    "bin": [
+        "Stream-Pi Server.exe"
+    ],
+    "shortcuts": [
+        [
+            "Stream-Pi Server.exe",
+            "Stream-Pi-Server"
+        ]
+    ],
+
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stream-pi/server/releases/download/$version/stream-pi-server-windows-x64-$version-installer.msi"
+            },
+            "32bit": {
+                "url": "https://github.com/stream-pi/server/releases/download/$version/stream-pi-server-windows-x86-$version-installer.msi"
+            }
+        }
+    }
+}
