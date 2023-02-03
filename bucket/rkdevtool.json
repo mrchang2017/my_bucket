@@ -21,5 +21,5 @@
             "RKDevTool"
         ]
     ],
-    "note": "you should install driver from: https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip before using this tool."
+    "notes": "you should install driver from: https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip before using this tool."
 }
