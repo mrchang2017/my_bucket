@@ -1,0 +1,25 @@
+{
+    "homepage": "https://wiki.radxa.com/Rock5/install/rockchip-flash-tools",
+    "description": "rkdevtool for windows is a tool from Rockchip to communicate with Rockusb devices",
+    "version": "2.9.6",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar#/dl.7z",
+            "hash": "3cecb270927ed98404a3eb218326e3578cb43969ea6677012ae31d38c1fd0e21"
+        },
+        "32bit": {
+            "url": "https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar#/dl.7z",
+            "hash": "3cecb270927ed98404a3eb218326e3578cb43969ea6677012ae31d38c1fd0e21"
+        }
+    },
+    "extract_dir": "RKDevTool_Release_v2.96",
+    "bin": "RKDevTool.exe",
+    "shortcuts": [
+        [
+            "RKDevTool.exe",
+            "RKDevTool"
+        ]
+    ],
+    "notes": "you should install driver from: https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip before using this tool."
+}
