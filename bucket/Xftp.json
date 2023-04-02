@@ -23,7 +23,6 @@
         "keep": true
     },
     "post_install": [
-        "$null, $bucket = find_manifest($app)",
         "$bucketdir = Find-BucketDirectory($bucket)",
         "$userdir = $env:USERPROFILE.Replace('\\', '\\\\')",
         "$escdir = $dir -replace \"\\\\\",\"\\\\\"",
