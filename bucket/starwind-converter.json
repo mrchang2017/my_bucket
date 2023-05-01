@@ -10,6 +10,7 @@
     "license": "freeware",
     "installer": {
         "script": [
+            "echo $dir",
             "uniextract.exe $dir\\starwindconverter.exe $dir\\cache"
         ],
         "keep": true
