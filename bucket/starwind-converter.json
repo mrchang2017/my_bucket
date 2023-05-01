@@ -11,7 +11,7 @@
     "installer": {
         "script": [
             "echo $dir",
-            "uniextract.exe $dir\\starwindconverter.exe $dir\\cache"
+            "uniextract.exe $pwd\\setup.exe $pwd /slient"
         ],
         "keep": true
     },
