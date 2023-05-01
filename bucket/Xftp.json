@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.netsarang.com/zh/Xftp/",
     "description": "业界最强大的SSH客户机",
-    "version": "7.0.0106",
+    "version": "6.0.0.199",
     "depends": [
         "sudo",
         "vcredist2008",
