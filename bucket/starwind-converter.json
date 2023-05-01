@@ -11,7 +11,8 @@
     "installer": {
         "script": [
             "echo $dir",
-            "uniextract.exe $dir\\setup.exe $dir /slient"
+            "uniextract.exe $dir\\setup.exe $dir /slient",
+            "rm $dir\\setup.exe"
         ],
         "keep": true
     },
