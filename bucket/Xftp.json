@@ -13,7 +13,7 @@
         "$bucketdir = Find-BucketDirectory($bucket)",
         "echo $bucketdir",
         "(gc \"$bucketdir\\..\\scripts\\netsarang\\add-hosts.ps1\") |  out-file -enc oem \"$dir\\add-hosts.ps1\"",
-        "sudo \"$dir\\add-hosts.ps1\""
+        "sudo.cmd \"$dir\\add-hosts.ps1\""
     ],
     "installer": {
         "script": [
@@ -28,9 +28,9 @@
         "$escdir = $dir -replace \"\\\\\",\"\\\\\"",
         "echo $bucketdir",
         "(gc \"$bucketdir\\..\\scripts\\xftp\\register.reg.templ\") | % { $_ -replace 'USERPROFILE', \"$userdir\" } | out-file -enc oem \"$dir\\register.reg\"",
-        "sudo regedit /s $dir\\register.reg",
+        "sudo.cmd regedit /s $dir\\register.reg",
         "Remove-Item \"$env:PUBLIC\\Desktop\\Xmanager` Power` Suite` 6\" -Recurse -ErrorAction SilentlyContinue",
-        "sudo Remove-Item \"$env:ProgramData\\Microsoft\\Windows\\Start` Menu\\Programs\\SHELL_OBJECT_FOLDER\" -Recurse -ErrorAction SilentlyContinue",
+        "sudo.cmd Remove-Item \"$env:ProgramData\\Microsoft\\Windows\\Start` Menu\\Programs\\SHELL_OBJECT_FOLDER\" -Recurse -ErrorAction SilentlyContinue",
         "ie4uinit.exe -show"
     ],
     "uninstaller": {
